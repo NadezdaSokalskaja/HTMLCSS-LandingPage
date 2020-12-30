@@ -344,6 +344,7 @@ section {
 }
 
 footer {
+    display: flex;
     flex-wrap: wrap;
     position: relative;
     z-index: 0;
@@ -365,6 +366,7 @@ footer:after {
 
 .lists { 
     flex: 0 0 75%; 
+    padding: 40px 15px;
 }
 
 .link-header {
@@ -466,6 +468,6 @@ footer a:hover {
     width: 100%;
     height: 1px;
     margin: 30px 0;
-    background: linear-gradient (90deg,#f05a28 0,#e80a89 100%);
+    background: linear-gradient(to right,#f05a28 0,#e80a89 100%);
 }
 
